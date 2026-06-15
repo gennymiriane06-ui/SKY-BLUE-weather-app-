@@ -39,4 +39,4 @@ It allows users to search for any city and view real-time weather information us
 - CSS3
 - JavaScript (ES6)
 - Fetch API
-- Weather data from OpenWeatherMap API
+- Weather data from OpenWeatherMap API# SKY-BLUE-weather-app-
