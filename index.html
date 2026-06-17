@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>⛅ SKY BLUE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="weather-card">
+
+    <!-- titile and description -->
+     <h1>⛅ SKY BLUE</h1>
+     <P>Search any city to see how it feels like outside.</P>
+
+     <!-- search-box -->
+     <div class="search-box">
+        <input type="text"
+        id="cityinput"
+        placeholder="e.g London, Tokyo ..."
+        >
+        <button id="searchbtn">Search</button>
+     </div>
+
+     <!-- weather icons -->
+     <div class="weather-info">
+
+        <img id="weathericon" src="" alt="weather icon">
+
+        <h2 id="cityname">City</h2>
+
+        <div id="temperature" class="temp">--°</div>
+
+        <p id="description">Weather</p>
+
+        <div class="details">
+
+            <div>
+              <span>Feels Like</span>
+              <p id="feelslike">--°</p>
+            </div>
+        
+        <div>
+            <span>Humidity</span>
+            <p id="humidity">--%</p>
+        </div>
+
+        <div>
+            <span>Wind</span>
+            <p id="wind">-- km/h</p>
+        </div>
+
+      </div> 
+
+     </div>
+
+    </div>
+    
+    <script src="skyblue.js"></script>
+</body>
+</html>
