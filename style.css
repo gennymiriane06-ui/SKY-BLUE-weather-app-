@@ -1,8 +1,53 @@
 body {
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(135deg, #71b7ff, #d68ac8);
-    
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(135deg, #71b7ff, #d68ac8);
+  font-family: sans-serif;
+}
+
+/* glass card */
+
+.weather-card {
+  width: 350px;
+  backdrop-filter: blur(20px);
+  background: rgba(255,255,255, 0.15);
+  border: 1px solid rgba(255,255,255, 0.3);
+  border-radius: 25px;
+  padding: 30px;
+  color: white;
+}
+
+/* search area */
+
+.search-box {
+  display: flex;
+  gap: 10px;
+}
+
+/* temperature */
+
+.temp {
+  font-size: 70px;
+  font-weight: 300;
+}
+
+/* bottom section */
+
+.details {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* mobile view */
+
+@media (max-width: 480px) {
+    .weather-card {
+        width: 90%;
+    }
+
+    .temp {
+        font-size: 50px;
+    }
 }
