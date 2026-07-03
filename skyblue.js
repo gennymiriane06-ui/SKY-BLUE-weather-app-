@@ -1,5 +1,3 @@
-const API_KEY = process.env.API_KEY;
-
 const cityinput = document.getElementById("cityinput");
 const searchbtn = document.getElementById("searchbtn");
 
