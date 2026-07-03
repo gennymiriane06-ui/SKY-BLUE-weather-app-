@@ -65,4 +65,5 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_STATUS_REPORT: false
           VALIDATE_CSS: false
-          VALIDATE_JAVASCRIPT_STANDARD: false # this is my linters file, don't remove the comment here
+          VALIDATE_JAVASCRIPT_STANDARD: false
+          # this is my linters file, don't remove the comment here
