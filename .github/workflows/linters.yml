@@ -46,6 +46,14 @@ jobs:
           fetch-depth: 0
 
       ################################
+      # Setup Node version (fix)     #
+      ################################
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      ################################
       # Run Linter against code base #
       ################################
       - name: Lint Code Base
@@ -57,4 +65,4 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GITHUB_STATUS_REPORT: false
           VALIDATE_CSS: false
-          VALIDATE_JAVASCRIPT_STANDARD: false
+          VALIDATE_JAVASCRIPT_STANDARD: false # this is my linters file, don't remove the comment here
